@@ -3,4 +3,12 @@ APCS pd06
 L03: Get Empirical
 2021-12-16
 
-0.  
+2021-12-16 PLANNING
+DISCOVERY: currentTimeMillis is a method in SYSTEM, which we don't have to import
+NOTE: currentTimeMillis is a long, DON'T FORGET
+JM suggested having new methods binSearchTime( Comparable[] a, Comparable target ) and linSearchTime( Comparable[] a, Comparable target )
+  These will keep track of how long it takes for a bin/linSearch call on array a with target target takes.
+  They will return longs
+ML suggested including populate( int[] a )
+JM suggested that populate( int[] a ) would fill a with NON random values, since BinSearch requires a to be sorted.
+QUESTION: Should binSearchTime and linSearchTime go in BinSearch.java and LinSearch.java or SearchDriver.java?
