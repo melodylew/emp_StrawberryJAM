@@ -1,0 +1,27 @@
+StrawberryJAM: Melody Lew, Sophia Eiden, Josiah Moltz
+APCS pd06
+L03: Get Empirical
+2021-12-16
+
+0. Instantiate BinSearch and LinSearch
+1. populate( int[] a)
+  -for loop that iterates through the indices of a and fills a with its index
+  
+  
+*in binSearchTime( Comparable[] a, Comparable target)*
+1. long variables: start and finish
+  - start = currentTimeMillis
+2. Run BinSearch
+3. finish = currentTimeMillis
+4. return finish-start
+
+
+*in linSearchTime( Comparable[] a, Comparable target)*
+1. long variables: start and finish
+  - start = currentTimeMillis
+2. Run LinSearch
+3. finish = currentTimeMillis
+4. return finish-start
+
+
+**Use different array sizes to test**
