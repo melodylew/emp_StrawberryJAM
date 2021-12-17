@@ -12,3 +12,7 @@ JM suggested having new methods binSearchTime( Comparable[] a, Comparable target
 ML suggested including populate( int[] a )
 JM suggested that populate( int[] a ) would fill a with NON random values, since BinSearch requires a to be sorted.
 QUESTION: Should binSearchTime and linSearchTime go in BinSearch.java and LinSearch.java or SearchDriver.java?
+
+2021-12-17 FEEDBACK
+YAH: I'd suggest searching for an element that is not present in the array, as well. That could show you how long it takes to "fail" :)
+YAH: After getting the times, then what? How would y'all analyze the results?

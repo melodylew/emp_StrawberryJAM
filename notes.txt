@@ -5,7 +5,7 @@ L03: Get Empirical
 
 
 DISCO:
-0.
+0. We need an additional test case to show what happens if an element is not in an array.
 
 QCC:
-0. 
+0.
