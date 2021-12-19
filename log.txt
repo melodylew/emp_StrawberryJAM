@@ -16,3 +16,8 @@ QUESTION: Should binSearchTime and linSearchTime go in BinSearch.java and LinSea
 2021-12-17 FEEDBACK
 YAH: I'd suggest searching for an element that is not present in the array, as well. That could show you how long it takes to "fail" :)
 YAH: After getting the times, then what? How would y'all analyze the results?
+
+2021-12-18 SearchDriver
+-StrawberryJAM coded populate(), binSearchTime(), and linSearchTime().
+-NullPointerException Error occurred because i was greater than a.length... should be less than.
+-LinearSearch takes a much longer time to search...typically around its 6th iteration it takes a long time to print the time.
