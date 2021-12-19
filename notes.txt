@@ -11,3 +11,4 @@ DISCO:
 QCC:
 0. A method should be static if you want to run it in the main().
 1. Not getting average amount of time each type of search takes, only the total time.
+2. Do we reduce the number of iterations or wait the whole time?
