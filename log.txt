@@ -21,3 +21,4 @@ YAH: After getting the times, then what? How would y'all analyze the results?
 -StrawberryJAM coded populate(), binSearchTime(), and linSearchTime().
 -NullPointerException Error occurred because i was greater than a.length... should be less than.
 -LinearSearch takes a much longer time to search...typically around its 6th iteration it takes a long time to print the time.
+-Tested with a large array and with worst cases
