@@ -57,17 +57,26 @@ public class SearchDriver{
     Integer[] a = new Integer[1];
     int i = 1;
     while (i < 100_000_000){
-      long binAvg = 0;
-      long linAvg = 0;
+      long binSum = 0;
+      long linSum = 0;
       a = new Integer[i];
       populate(a);
+      //MAKE TIME MORE ACCURATE
+      //start time here
       for (int j = -1; j < i; j++){
-        binAvg += binSearchTime(a, j);
-        linAvg += linSearchTime(a,j);
+        binSum += binSearchTime(a, j);
+        linSum += linSearchTime(a,j);
       }
-      System.out.println("binary = " + binAvg);
-      System.out.println("linary = " + linAvg);
-      i *= 10;
+      //end time here
+      //will unfortunately include for loop time, but will be MUCH more accurate
+      //will avoid rounding issues
+      System.out.println("List Size = " + i);
+      System.out.println("=============");
+      System.out.println("Binary = " + binSum);
+      System.out.println("Linary = " + linSum);
+      System.out.println("Binary worst case = " + binSearchTime(a,-1));
+      System.out.println("Linary worst case = " + linSearchTime(a,-1) + "\n");
+      i *= 3;
     }
   }
 }
