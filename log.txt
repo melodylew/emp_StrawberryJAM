@@ -23,3 +23,94 @@ YAH: After getting the times, then what? How would y'all analyze the results?
 -LinearSearch takes a much longer time to search...typically around its 6th iteration it takes a long time to print the time.
 -Tested with a large array and with worst cases
 -JM discovered that ctrl t shows how long you've been waiting in Terminal (meant to press cmd t but accidentally discovered this instead!)
+
+List Size = 1
+=============
+Binary = 0
+Linary = 0
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 3
+=============
+Binary = 0
+Linary = 0
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 9
+=============
+Binary = 0
+Linary = 0
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 27
+=============
+Binary = 0
+Linary = 0
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 81
+=============
+Binary = 1
+Linary = 0
+Binary worst case = 0
+Linary worst case = 1
+
+List Size = 243
+=============
+Binary = 0
+Linary = 1
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 729
+=============
+Binary = 2
+Linary = 2
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 2187
+=============
+Binary = 0
+Linary = 14
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 6561
+=============
+Binary = 0
+Linary = 16
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 19683
+=============
+Binary = 1
+Linary = 112
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 59049
+=============
+Binary = 7
+Linary = 1045
+Binary worst case = 1
+Linary worst case = 0
+
+List Size = 177147
+=============
+Binary = 11
+Linary = 7138
+Binary worst case = 0
+Linary worst case = 0
+
+List Size = 531441
+=============
+Binary = 41
+Linary = 82013
+Binary worst case = 0
+Linary worst case = 1
