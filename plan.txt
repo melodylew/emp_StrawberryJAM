@@ -6,9 +6,11 @@ L03: Get Empirical
 0. Instantiate BinSearch and LinSearch
 1. populate( int[] a)
   -for loop that iterates through the indices of a and fills a with its index
+  EDIT: Method populate that takes an integer array a. (de Java-fy)
   
   
 *in binSearchTime( Comparable[] a, Comparable target)*
+EDIT: Method binSearchTime that takes a comparable array a and a comparable target
 1. long variables: start and finish
   - start = currentTimeMillis
 2. Run BinSearch
@@ -17,6 +19,7 @@ L03: Get Empirical
 
 
 *in linSearchTime( Comparable[] a, Comparable target)*
+EDIT: Method linSearchTime that takes a comparable array a and a comparable target
 1. long variables: start and finish
   - start = currentTimeMillis
 2. Run LinSearch
@@ -25,3 +28,5 @@ L03: Get Empirical
 
 
 **Use different array sizes to test**
+EDIT: Multiply the array length by 3 each time.
+
