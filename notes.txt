@@ -5,11 +5,13 @@ L03: Get Empirical
 
 
 DISCO:
-0. NullPointerException Error: a variable is accessed which is not pointing to any object and refers to null 
+0. NullPointerException Error: a variable is accessed which is not pointing to any object and refers to null
 1. A _ can replace a comma in a number (e.g. 100,000,000 -> 100_000_000). This is good for legibility (100_000_000 as opposed to 100000000)
 2. ctrl t shows how long you've been waiting in Terminal (accidentally discovered)
+3. It is much harder to get our Binary Worst Case to be 1 millisecond compared to our Linary (Linear) Worst Case.
 
 QCC:
 0. A method should be static if you want to run it in the main().
 1. Not getting average amount of time each type of search takes, only the total time.
-2. Do we reduce the number of iterations or wait the whole time?
+2. Do we increase the number of iterations or wait the whole time? We increase!
+3. Java is not flooring our time, rather the time operates on an integer level so it is automatically "floored".
