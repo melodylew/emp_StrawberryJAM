@@ -74,7 +74,6 @@ public class SearchDriver{
       System.out.println("List Size = " + i);
       System.out.println("=============");
       System.out.println("Binary worst case = " + binSearchTime(a,-1) + "\n");
-      //System.out.println("Linary worst case = " + linSearchTime(a,-1) + "\n");
       i *= 10;
     }
   }
