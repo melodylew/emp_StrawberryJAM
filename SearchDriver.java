@@ -42,7 +42,7 @@ public class SearchDriver{
     long start, finish;
     start = System.currentTimeMillis();
 
-    for (int i = 0; i < 100_000_000; i++){
+    for (int i = 0; i < 10_000; i++){
       bin.binSearch(a,target);
     }
 
@@ -55,7 +55,7 @@ public class SearchDriver{
     long start, finish;
     start = System.currentTimeMillis();
 
-    for (int i = 0; i < 10000; i++){
+    for (int i = 0; i < 10_000; i++){
       lin.linSearch(a, target);
     }
 
@@ -65,7 +65,7 @@ public class SearchDriver{
   }
 
   public static void main(String[] args) {
-    int i = 1;
+    int i = 1_000;
     while (i < 1_000_000_000){
       Integer[] a = new Integer[i];
       populate(a);

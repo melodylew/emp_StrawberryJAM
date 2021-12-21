@@ -4,12 +4,10 @@ L03: Get Empirical
 2021-12-16
 
 0. Instantiate BinSearch and LinSearch
-1. populate( int[] a)
-  -for loop that iterates through the indices of a and fills a with its index
-  EDIT: Method populate that takes an integer array a. (de Java-fy)
-  
-  
-*in binSearchTime( Comparable[] a, Comparable target)*
+
+1. method populate taking an integer array and populating it so that every element is equal to its index
+
+2. MethodbinSearchTime( Comparable[] a, Comparable target)
 EDIT: Method binSearchTime that takes a comparable array a and a comparable target
 1. long variables: start and finish
   - start = currentTimeMillis
@@ -29,4 +27,3 @@ EDIT: Method linSearchTime that takes a comparable array a and a comparable targ
 
 **Use different array sizes to test**
 EDIT: Multiply the array length by 3 each time.
-
