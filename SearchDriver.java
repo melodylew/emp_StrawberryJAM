@@ -42,7 +42,7 @@ public class SearchDriver{
     long start, finish;
     start = System.currentTimeMillis();
 
-    for (int i = 0; i < 10000; i++){
+    for (int i = 0; i < 100_000_000; i++){
       bin.binSearch(a,target);
     }
 
@@ -65,15 +65,15 @@ public class SearchDriver{
   }
 
   public static void main(String[] args) {
-    int i = 1000;
+    int i = 1;
     while (i < 1_000_000_000){
       Integer[] a = new Integer[i];
       populate(a);
 
       System.out.println("List Size = " + i);
       System.out.println("=============");
-      System.out.println("Binary worst case = " + binSearchTime(a,-1));
-      System.out.println("Linary worst case = " + linSearchTime(a,-1) + "\n");
+      System.out.println("Binary worst case = " + binSearchTime(a,-1) + "\n");
+      //System.out.println("Linary worst case = " + linSearchTime(a,-1) + "\n");
       i *= 10;
     }
   }

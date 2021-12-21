@@ -63,7 +63,57 @@ List Size = 100000000
 Binary worst case = 1
 Linear worst case = 760961
 ```
-With an array of length 100,000,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 760,961 milliseconds to find an element not in the array using a linear search 10,000 times. 
+With an array of length 100,000,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 760,961 milliseconds to find an element not in the array using a linear search 10,000 times.
 
 # Conclusions
-Binary is FAST!
+Binary is **FAST**.
+
+Due to the fact that we, [and other people](https://piazza.com/class/kue5pmk0w7n70n?cid=382_f3), observed over inflated values on the first runs for both linear and binary searches, we decided to ignore these data values.
+
+The linear cases tended to show something resembling *linear growth*. \
+Note that as the list size increases by a factor of 10, the linear time also increases by roughly a factor of 10.
+
+Even though it doesn't represent logarithmic growth as well as the linear case represents linear growth, the binary worst cases stay very close to 0 and 1, suggesting a more logarithmic growth. \
+<details>
+  <summary> Better Logarithmic Data </summary>
+  To better demonstrate logarithmic growth, we ran Binary Search 1,000,000 times on lists of size 1 10 100 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000. \
+  Here was our data
+  ```
+  List Size = 1
+  =============
+  Binary worst case = 67
+
+  List Size = 10
+  =============
+  Binary worst case = 278
+
+  List Size = 100
+  =============
+  Binary worst case = 671
+
+  List Size = 1000
+  =============
+  Binary worst case = 1160
+
+  List Size = 10000
+  =============
+  Binary worst case = 2028
+
+  List Size = 100000
+  =============
+  Binary worst case = 2622
+
+  List Size = 1000000
+  =============
+  Binary worst case = 3350
+
+  List Size = 10000000
+  =============
+  Binary worst case = 4389
+
+  List Size = 100000000
+  =============
+  Binary worst case = 5167
+  ```
+  Since as we exponentially increase the list size, the time increases linearly, this suggests logarithmic growth.
+</details>
