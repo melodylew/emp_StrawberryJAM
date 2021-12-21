@@ -16,11 +16,38 @@
 We timed how long it took to run 10,000 binary/linear searches of the worst case type (searching for an element not in the list) on arrays of length 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000
 
 # Results
-## Raw Data
+**NOTE** Linary refers to linear test cases
 ```
-TO BE ADDED
+List Size = 1000
+=============
+Binary worst case = 7
+Linary worst case = 20
+
+List Size = 10000
+=============
+Binary worst case = 1
+Linary worst case = 60
+
+List Size = 100000
+=============
+Binary worst case = 1
+Linary worst case = 613
+
+List Size = 1000000
+=============
+Binary worst case = 0
+Linary worst case = 6406
+
+List Size = 10000000
+=============
+Binary worst case = 1
+Linary worst case = 74222
+
+List Size = 100000000
+=============
+Binary worst case = 1
+Linary worst case = 760961
 ```
-## Summary
 
 # Conclusions
 Binary is FAST!
