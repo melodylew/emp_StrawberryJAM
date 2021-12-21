@@ -26,3 +26,7 @@ YAH: After getting the times, then what? How would y'all analyze the results?
 
 ---2021-12-20 Tests---
 -Increase the amount of times we search in the SearchTime methods while we decreased the number of elements in the array.
+-Originally repeated the line of code calling BinSearch/LinSearch over and over instead of using a loop to avoid computation
+ Due to a tip from Dr. Wu we replaced this with a while loop, since the loop will add negligible time and will be add the same time for each search
+-Java exceeds limits between 2 and 3 billion
+-WEIRD: FIRST TEST CASE TAKES WAY LONGER THAN THE REST?!?!?!?

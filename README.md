@@ -13,8 +13,14 @@
 
 
 # Tests Performed
-0. An integer array with 100,000 elements
+We timed how long it took to run 10,000 binary/linear searches of the worst case type (searching for an element not in the list) on arrays of length 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000
 
 # Results
-Binary Search took 0 milliseconds each time we searched through the array, whereas Linear Search
+## Raw Data
+```
+TO BE ADDED
+```
+## Summary
+
 # Conclusions
+Binary is FAST!
