@@ -75,45 +75,45 @@ Note that as the list size increases by a factor of 10, the linear time also inc
 
 Even though it doesn't represent logarithmic growth as well as the linear case represents linear growth, the binary worst cases stay very close to 0 and 1, suggesting a more logarithmic growth. \
 <details>
-  <summary> Better Logarithmic Data </summary>
-  To better demonstrate logarithmic growth, we ran Binary Search 1,000,000 times on lists of size 1 10 100 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000. \
-  Here was our data
-  ```
-  List Size = 1
-  =============
-  Binary worst case = 67
+<summary> Better Logarithmic Data </summary>
+To better demonstrate logarithmic growth, we ran Binary Search 1,000,000 times on lists of size 1 10 100 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000. \
+Here was our data
+```
+List Size = 1
+=============
+Binary worst case = 67
 
-  List Size = 10
-  =============
-  Binary worst case = 278
+List Size = 10
+=============
+Binary worst case = 278
 
-  List Size = 100
-  =============
-  Binary worst case = 671
+List Size = 100
+=============
+Binary worst case = 671
 
-  List Size = 1000
-  =============
-  Binary worst case = 1160
+List Size = 1000
+=============
+Binary worst case = 1160
 
-  List Size = 10000
-  =============
-  Binary worst case = 2028
+List Size = 10000
+=============
+Binary worst case = 2028
 
-  List Size = 100000
-  =============
-  Binary worst case = 2622
+List Size = 100000
+=============
+Binary worst case = 2622
 
-  List Size = 1000000
-  =============
-  Binary worst case = 3350
+List Size = 1000000
+=============
+Binary worst case = 3350
 
-  List Size = 10000000
-  =============
-  Binary worst case = 4389
+List Size = 10000000
+=============
+Binary worst case = 4389
 
-  List Size = 100000000
-  =============
-  Binary worst case = 5167
-  ```
-  Since as we exponentially increase the list size, the time increases linearly, this suggests logarithmic growth.
+List Size = 100000000
+=============
+Binary worst case = 5167
+```
+Since as we exponentially increase the list size, the time increases linearly, this suggests logarithmic growth.
 </details>
