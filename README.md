@@ -13,41 +13,57 @@
 
 
 # Tests Performed
-We timed how long it took to run 10,000 binary/linear searches of the worst case type (searching for an element not in the list) on arrays of length 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000
+We timed how long it took to run 10,000 binary/linear searches of the worst case type (searching for an element not in the list) on arrays of length **ADD POPULATE** 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000.
 
 # Results
-**NOTE** Linary refers to linear test cases
+
 ```
 List Size = 1000
 =============
 Binary worst case = 7
-Linary worst case = 20
+Linear worst case = 20
+```
+With an array of length 1,000 it took 7 milliseconds to find an element not in the array using a binary search 10,000 times, and 20 milliseconds to find an element not in the array using a linear search 10,000 times.
 
+```
 List Size = 10000
 =============
 Binary worst case = 1
-Linary worst case = 60
+Linear worst case = 60
+```
+With an array of length 10,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 60 milliseconds to find an element not in the array using a linear search 10,000 times.
 
+```
 List Size = 100000
 =============
 Binary worst case = 1
-Linary worst case = 613
+Linear worst case = 613
+```
+With an array of length 100,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 613 milliseconds to find an element not in the array using a linear search 10,000 times.
 
+```
 List Size = 1000000
 =============
 Binary worst case = 0
-Linary worst case = 6406
+Linear worst case = 6406
+```
+With an array of length 1,000,000 it took 0 milliseconds to find an element not in the array using a binary search 10,000 times, and 6,406 milliseconds to find an element not in the array using a linear search 10,000 times.
 
+```
 List Size = 10000000
 =============
 Binary worst case = 1
-Linary worst case = 74222
+Linear worst case = 74222
+```
+With an array of length 10,000,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 74,222 milliseconds to find an element not in the array using a linear search 10,000 times.
 
+```
 List Size = 100000000
 =============
 Binary worst case = 1
-Linary worst case = 760961
+Linear worst case = 760961
 ```
+With an array of length 100,000,000 it took 1 millisecond to find an element not in the array using a binary search 10,000 times, and 760,961 milliseconds to find an element not in the array using a linear search 10,000 times. 
 
 # Conclusions
 Binary is FAST!

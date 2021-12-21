@@ -1,3 +1,8 @@
+// StrawberryJAM: Melody Lew, Sophia Eiden, Josiah Moltz
+// APCS pd06
+// L03: Get Empirical
+// 2021-12-16 ~ 2021-12-20
+
 /*
 0. Instantiate BinSearch and LinSearch
 1. populate( int[] a)
