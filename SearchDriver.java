@@ -2,6 +2,7 @@
 // APCS pd06
 // L03: Get Empirical
 // 2021-12-16 ~ 2021-12-20
+// Time Spent: 5 hrs
 
 /*
 0. Instantiate BinSearch and LinSearch

@@ -2,6 +2,7 @@ StrawberryJAM: Melody Lew, Sophia Eiden, Josiah Moltz
 APCS pd06
 L03: Get Empirical
 2021-12-16 ~ 2021-12-20
+Time Spent: 5 hrs
 
 ---2021-12-16 PLANNING---
 DISCOVERY: currentTimeMillis is a method in SYSTEM, which we don't have to import
@@ -17,16 +18,22 @@ QUESTION: Should binSearchTime and linSearchTime go in BinSearch.java and LinSea
 YAH: I'd suggest searching for an element that is not present in the array, as well. That could show you how long it takes to "fail" :)
 YAH: After getting the times, then what? How would y'all analyze the results?
 
----2021-12-18 SearchDriver---
+---2021-12-18 SEARCHDRIVER---
 -StrawberryJAM coded populate(), binSearchTime(), and linSearchTime().
 -NullPointerException Error occurred because i was greater than a.length... should be less than.
 -LinearSearch takes a much longer time to search...typically around its 6th iteration it takes a long time to print the time.
 -Tested with a large array and with worst cases (the target is not in the array)
 -JM discovered that ctrl t shows how long you've been waiting in Terminal (meant to press cmd t but accidentally discovered this instead!)
 
----2021-12-20 Tests---
+---2021-12-20 TESTS---
+-Do NOT count the time it takes for an "average" run of binary/linear, instead only check worst case scenarios (reformatted SearchDriver)
 -Increase the amount of times we search in the SearchTime methods while we decreased the number of elements in the array.
 -Originally repeated the line of code calling BinSearch/LinSearch over and over instead of using a loop to avoid computation
  Due to a tip from Dr. Wu we replaced this with a while loop, since the loop will add negligible time and will be add the same time for each search
 -Java exceeds limits between 2 and 3 billion
 -WEIRD: FIRST TEST CASE TAKES WAY LONGER THAN THE REST?!?!?!?
+
+---2021-12-20 FORMATTING---
+-Discovered collapsable md text
+-Linear search data quickly represents an example of linear data (and represents it very well)
+-Binary search data does NOT represent logarithmic data until the number of times the search is executed is increased (by a few factors of 10) (and represents it decently)

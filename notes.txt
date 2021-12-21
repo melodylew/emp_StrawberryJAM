@@ -1,17 +1,22 @@
 StrawberryJAM: Melody Lew, Sophia Eiden, Josiah Moltz
 APCS pd06
 L03: Get Empirical
-2021-12-17
-
+2021-12-16 ~ 2021-12-20
+Time Spent: 5 hrs
 
 DISCO:
 0. NullPointerException Error: a variable is accessed which is not pointing to any object and refers to null
 1. A _ can replace a comma in a number (e.g. 100,000,000 -> 100_000_000). This is good for legibility (100_000_000 as opposed to 100000000)
 2. ctrl t shows how long you've been waiting in Terminal (accidentally discovered)
 3. It is much harder to get our Binary Worst Case to be 1 millisecond compared to our Linary (Linear) Worst Case.
+4. Linear search and Binary search represent linear and logarithmic data fairly well (but Binary only shows this when pushed to very high numbers)
+5. BINARY IS FAAAAASSSSSSTTTTTTTTTTTTTTTT, and linear kinda sucks
+6. The first test case is nearly always overinflated
+7. Do not test for average time, instead do worst case
 
 QCC:
 0. A method should be static if you want to run it in the main().
 1. Not getting average amount of time each type of search takes, only the total time.
 2. Do we increase the number of iterations or wait the whole time? We increase!
 3. Java is not flooring our time, rather the time operates on an integer level so it is automatically "floored".
+4. Why is the first test case nearly always overinflated? Is it because of what TDC said about the JVM making optimazations and initializing the instantiations of bin/lin

@@ -1,7 +1,8 @@
-// Clyde "Thluffy" Sinclair
-// APCS1 pd0
-// HW48 -- implementing linear and binary search on an ArrayList of Comparables
-// 2021-12-16r
+// StrawberryJAM: Melody Lew, Sophia Eiden, Josiah Moltz
+// APCS pd06
+// L03: Get Empirical
+// 2021-12-16 ~ 2021-12-20
+// Time Spent: 5 hrs
 
 /**
    class LinSearch
@@ -11,7 +12,7 @@ public class LinSearch
 {
 
   /**
-     int linSearch(Comparable[],Comparable) -- searches an array of 
+     int linSearch(Comparable[],Comparable) -- searches an array of
      Comparables for target
      post: returns index of first occurrence of target, or
      returns -1 if target not found
@@ -59,10 +60,10 @@ public class LinSearch
     Comparable[] iArr = { 2, 4, 6, 8, 6, 42 };
     printArray( iArr );
 
-    //search for 6 in array 
+    //search for 6 in array
     System.out.println( linSearch(iArr,6) );
 
-    //search for 43 in array 
+    //search for 43 in array
     System.out.println( linSearch(iArr,43) );
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -74,7 +75,7 @@ public class LinSearch
     System.out.println("\nNow testing linSearch on String array...");
 
     //declare and initialize an array of Strings
-    String[] sArr = { "kiwi", "watermelon", "orange", "apple", 
+    String[] sArr = { "kiwi", "watermelon", "orange", "apple",
                       "peach", "watermelon" };
     printArray( sArr );
 
