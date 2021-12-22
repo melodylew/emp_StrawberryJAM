@@ -20,3 +20,27 @@ QCC:
 2. Do we increase the number of iterations or wait the whole time? We increase!
 3. Java is not flooring our time, rather the time operates on an integer level so it is automatically "floored".
 4. Why is the first test case nearly always overinflated? Is it because of what TDC said about the JVM making optimazations and initializing the instantiations of bin/lin
+
+GALLERY TOUR:
+
+--Big Apples--
+Binary was faster for every test. 
+Big Apples did something quite interesting where they had iterative methods and non-iterative methods. They found that the non-iterative methods took less time because they were not searching through every index of the array. 
+Another interesting feature was that they tested on small and large indexes and arrays.
+They discovered a linear relationship between the array length and time it takes for the search to complete.
+
+--CNN--
+CNN concluded that linear search was better for smaller arrays while binary search was better for larger arrays.
+They also used a double type for the time it took for the searches. One interesting thing was that they used a random target.
+
+--Gamma Ray--
+Binary search was too efficient for their arrays. They did 50 trials and averaged the times. From there, they found that the bigger the array, the faster binary search would be than linear search.
+
+--Four--
+Something notable was that Four's binSearchTime() and linSearchTime() took the number of searches as parameters, which makes it easier to edit how many times to run the searches. 
+
+--ABA--
+Their arrays were filled with even numbers and they conducted a search on a random target. They also had a graph displaying the relationship between array length and elapsed time for binary and linear search. 
+
+--YAH--
+They performed different tests for binary and linear search; they used an array of 100 elements for linear search but ran binary search as normal. YAH scaled linear search up so that it would be comparable for binary search. 
