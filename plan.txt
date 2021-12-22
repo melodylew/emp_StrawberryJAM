@@ -9,13 +9,14 @@ Time Spent: 5 hrs
 1. Method populate taking an integer array
    Populates the array so that every element is equal to its index
 
-2. Method binSearchTime taking comparable array and comparable target
-   Times how long it takes to complete 1,000 binary searches looking for the given target in the given array
+2. Method binSearchTime taking comparable array, comparable target, and integer number of searches
+   Times how long it takes to complete the specified number of binary searches looking for the given target in the given array
 
-3. Method linSearchTime taking comparable array and comparable target
-   Times how long it takes to complete 1,000 linear searches looking for the given target in the given array
+3. Method linSearchTime taking comparable array, comparable target, and integer number of searches
+   Times how long it takes to complete the specified number of linear searches looking for the given target in the given array
 
 4. Main method
    Uses an array a, starting with size 1,000
-   Reports how long it takes to find -1 (an element not in a) by using binSearchTime and linSearchTime
+   Reports how long it takes to find -1 (an element not in a) by using binSearchTime and linSearchTime with 10,000 searches for each
+   Reports how long it takes to find -1 (an element not in a) by using binSearchTime with 100,000,000 searches for each
    Increases the length of a by a factor of 10 and repeats for array lengths of 1,000 10,000 100,000 1,000,000 10,000,000 and 100,000,000
