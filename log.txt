@@ -41,4 +41,5 @@ YAH: After getting the times, then what? How would y'all analyze the results?
 ---2021-12-21 GALLERY TOUR---
 -Did a gallery tour and decided to make some edits (see below)
 -Do the first test case twice to get rid of the initial lag
+-Add number of searches as a parameter binSearchTime() and linSearchTime()
 -Conclude the relationship between the array length and the elapsed time it takes for binary search and linear search to find a target *not* in the array
