@@ -37,3 +37,9 @@ YAH: After getting the times, then what? How would y'all analyze the results?
 -Discovered collapsable md text
 -Linear search data quickly represents an example of linear data (and represents it very well)
 -Binary search data does NOT represent logarithmic data until the number of times the search is executed is increased (by a few factors of 10) (and represents it decently)
+
+---2021-12-21 GALLERY TOUR---
+-Did a gallery tour and decided to make some edits (see below)
+-Edit the main method to find the threshold where binary search is faster than linear search (based on CNN's findings that linear search was better for smaller arrays)
+-Do the first test case to get rid of the initial lag
+-Conclude the relationship between the array length and the elapsed time it takes for binary search and linear search to find a target *not* in the array
