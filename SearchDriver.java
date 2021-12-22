@@ -39,11 +39,11 @@ public class SearchDriver{
     }
   }
 
-  public static long binSearchTime(Comparable[] a, Comparable target){
+  public static long binSearchTime(Comparable[] a, Comparable target, int numSearch){
     long start, finish;
     start = System.currentTimeMillis();
 
-    for (int i = 0; i < 10_000; i++){
+    for (int i = 0; i < numSearch; i++){
       bin.binSearch(a,target);
     }
 
@@ -52,11 +52,11 @@ public class SearchDriver{
     return finish - start;
   }
 
-  public static long linSearchTime(Comparable[] a, Comparable target){
+  public static long linSearchTime(Comparable[] a, Comparable target, int numSearch){
     long start, finish;
     start = System.currentTimeMillis();
 
-    for (int i = 0; i < 10_000; i++){
+    for (int i = 0; i < numSearch; i++){
       lin.linSearch(a, target);
     }
 
@@ -67,15 +67,38 @@ public class SearchDriver{
 
   public static void main(String[] args) {
     int i = 1_000;
+    Integer[] a = new Integer[i];
+    populate(a);
+
+    linSearchTime(a,-1,10_000);  //BURNER COMPUTATION
+    binSearchTime(a,-1,10_000);  //BURNER COMPUTATION
+
     while (i < 1_000_000_000){
-      Integer[] a = new Integer[i];
+      a = new Integer[i];
       populate(a);
 
       System.out.println("List Size = " + i);
       System.out.println("=============");
-      System.out.println("Binary worst case = " + binSearchTime(a,-1));
-      System.out.println("Linary worst case = " + linSearchTime(a,-1) + "\n");
+      System.out.println("Binary worst case = " + binSearchTime(a,-1,10_000));
+      System.out.println("Linary worst case = " + linSearchTime(a,-1,10_000) + "\n");
+
+      System.out.println("Boosted Binary = " + binSearchTime(a,-1,100_000_000) + "\n \n");
       i *= 10;
     }
+
+    int j = 1;
+    Integer[] b = new Integer[j];
+    populate(b);
+    linSearchTime(b,-1,10_000);  //BURNER COMPUTATION
+    binSearchTime(b,-1,10_000);  //BURNER COMPUTATION
+
+    while ( linSearchTime(b,-1,100_000) < binSearchTime(b,-1,100_000) ) {
+      j += 1;
+      b = new Integer[j];
+      populate(b);
+    }
+    System.out.println("THRESHOLD TESTING\n");
+    System.out.println("Last time Linear is faster than Binary = " + j);
+
   }
 }
